@@ -31,7 +31,5 @@ services:
         sync: false
       - key: MINIMAX_API_KEY
         sync: false
-    disk:
-      name: openclaw-data
-      mountPath: /data
-      sizeGB: 5
+      - key: DATABASE_URL
+        snyc: false
