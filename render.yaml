@@ -20,9 +20,6 @@ services:
       - key: OPENCLAW_WORKSPACE_DIR
         value: /tmp/workspace
 
-      # Gateway token
-      - key: OPENCLAW_GATEWAY_TOKEN
-        generateValue: true
 
       #################################################
       # OLLAMA CLOUD CONFIG
